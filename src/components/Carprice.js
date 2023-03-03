@@ -8,6 +8,6 @@ export default function Carprice() {
     ,0)
   });
   return (
-    <div className='flex justify-end space-x-2 mr-48 text-xl '><h2>TOTAL</h2><h3 className='text-red-500'>₹ {carprice}</h3></div>
+    <div className='flex justify-end space-x-2 mr-48 text-xl '><h2>TOTAL</h2><h3 className='text-red-500 border border-gray-200'>₹ {carprice}</h3></div>
   )
 }
