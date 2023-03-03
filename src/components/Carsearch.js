@@ -10,8 +10,9 @@ function Carsearch() {
   })
   
   return (
-    <div>
-    <input type="type" value={response} onChange={changehandler}/>    
+    <div className="p-2 flex justify-end space-x-2"  >
+      <h3 className="text-xl text-indigo-500">Search Name</h3>
+    <input className="border " placeholder="Search Car" type="type" value={response} onChange={changehandler}/>    
  
     </div>
   )
