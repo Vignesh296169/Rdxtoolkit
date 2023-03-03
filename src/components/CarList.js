@@ -11,9 +11,9 @@ function CarList() {
      dispatch(removecar(car.id))
   }
    const response=cars.map((car)=>{
-    return<div key={car.id} className="flex space-x-3 justify-center">
+    return<div key={car.id} className="flex  space-x-3 mt-4 justify-center">
         <p className='text-xl text-gray-700'>{car.name} - ₹ {car.cost}</p>
-        <button onClick={()=>{delethandler (car)}} className="py-1 bg-black text-white rounded-md">delete</button>
+        <button onClick={()=>{delethandler (car)}} className="py-1 px-2 bg-black text-white rounded-md">delete</button>
     </div>
    })
   return (
